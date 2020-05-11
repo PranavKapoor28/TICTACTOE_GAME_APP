@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "801123923435",
+    "firebase_url": "https://login-form-ac769.firebaseio.com",
+    "project_id": "login-form-ac769",
+    "storage_bucket": "login-form-ac769.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801123923435:android:aa19fc6fd2e406241995ae",
+        "android_client_info": {
+          "package_name": "com.example.myapplication3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801123923435-erci0g59jaqp1b1fdjo010v8lun0mv7g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADYRTcoybDVmvADxXWCD_p0jwVVyqLLQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801123923435-erci0g59jaqp1b1fdjo010v8lun0mv7g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

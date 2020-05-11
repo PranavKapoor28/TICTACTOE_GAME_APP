@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application 2</string>
+    <string name="heading">WELCOME TO TIC TAC TOE</string>
+    <string name="grid">our main grid</string>
+    <string name="zero">zero value</string>
+    <string name="status">status of player</string>
+</resources>
