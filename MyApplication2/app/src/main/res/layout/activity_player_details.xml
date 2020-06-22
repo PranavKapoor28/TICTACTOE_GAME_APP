@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01092E"
+    tools:context=".PlayerDetails"
+    >
+
+    <EditText
+        android:id="@+id/Player2name"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:background="#36FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter the name of Player 2"
+        android:inputType="textPersonName"
+        android:textColor="#F4EFEF"
+        android:textColorHint="#97F6F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Player2"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <TextView
+        android:id="@+id/PlayerDetails"
+        android:layout_width="334dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="Enter The Player Details"
+        android:textColor="#FBFAFA"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Player1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Player1"
+        android:layout_width="158dp"
+        android:layout_height="34dp"
+        android:gravity="center"
+        android:text="Player 1"
+        android:textColor="#F80202"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Player1name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.857" />
+
+    <EditText
+        android:id="@+id/Player1name"
+        android:layout_width="349dp"
+        android:layout_height="59dp"
+        android:background="#36FFFFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter the name of Player 1"
+        android:inputType="textPersonName"
+        android:textColor="#F4EFEF"
+        android:textColorHint="#9FF6F4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <TextView
+        android:id="@+id/Player2"
+        android:layout_width="166dp"
+        android:layout_height="36dp"
+        android:gravity="center"
+        android:text="Player 2"
+        android:textColor="#7FFD02"
+        android:textColorHint="#FDFCFC"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Player1name"
+        app:layout_constraintVertical_bias="0.223" />
+
+    <Button
+        android:id="@+id/EnterDetailsbtn"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:background="@drawable/btn_contact"
+        android:gravity="center"
+        android:text="Enter"
+        android:textColor="#FAF8F8"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Player2name"
+        app:layout_constraintVertical_bias="0.598" />
+</androidx.constraintlayout.widget.ConstraintLayout>
